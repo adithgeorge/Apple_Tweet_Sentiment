@@ -2,6 +2,13 @@
 
 **Still working on this by improving the result, gaining more data and further improvement in deployment. Do read this file and check the conclusion to get an accurate idea on my project and what are its limitations.**
 
+**You can access the web app through this link:**
+
+https://apple-tweet-sentiments.herokuapp.com/
+
+**There is a problem found when connecting to streamlit on a chromium browser on PC.** 
+**It is better to open the web app via a mobile browser or using Microsoft Edge on PC.**
+
 ## Problem Statement
 
 In the following notebook we are going to be performing sentiment analysis on a collection of tweets about Apple Inc. After preprocessing, the tweets are labeled as either positive (i.e. I love the new iMac) or negative. (i.e. Apple has bad work poilicies!)
