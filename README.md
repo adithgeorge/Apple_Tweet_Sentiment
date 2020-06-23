@@ -6,7 +6,7 @@
 
 https://apple-tweet-sentiments.herokuapp.com/
 
-**There is a problem found when connecting to streamlit on a chromium browser on PC.** 
+**There is a problem found when connecting to streamlit on a chromium browser on PC. UPDATE: Use incognito mode.** 
 **It is better to open the web app via a mobile browser or using Microsoft Edge on PC.**
 
 ## Problem Statement
