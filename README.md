@@ -32,11 +32,11 @@ In the following notebook we are going to be performing sentiment analysis on a 
 
 ### TF-IDF
 
-* We will use TF-IDF to convert our token lists to numerical data.
+* We use TF-IDF to convert our token lists to numerical data.
 
 ## Model Building 
 
-So now we will predict the whether the tweet sentiment is positive or not using Classification Algorithms. Following are the algorithms I will use to make the model:
+So now we predict the whether the tweet sentiment is positive or not using Classification Algorithms. Following are the algorithms I will use to make the model:
 
 1. Logistic Regression
 
@@ -50,20 +50,20 @@ So now we will predict the whether the tweet sentiment is positive or not using 
 
 The accuracy of a model is not the only factor that determines the robustness of the classifier. As the training and testing data changes, the accuracy will also change. It may increase or decrease. This is known as model variance.
 
-To overcome this and get a generalized model,we use Cross Validation.
+To overcome this and get a generalized model, we use Cross Validation.
 
 Many a times, the data is imbalanced, i.e there may be a high number of one specific class instances but less number of other class instances. Thus we should train and test our algorithm on each and every instance of the dataset. Then we can take an average of all the noted accuracies over the dataset.
 
 An algorithm may underfit over a dataset for some training data and sometimes also overfit the data for other training set. Thus with cross-validation, we can achieve a generalised model.
 
-* As we can see the best performing algorithms are SVM (Linear), Random Forest Classifer, Logistic Regression and KNN.
+* **As we can see the best performing algorithms are SVM (Linear), Random Forest Classifer, Logistic Regression and KNN.**
 
 * Cross Validation is a type of resampling method and it should be done on the complete data to know how our model will work when subjected to different data.
 
 ### Cross Validation
 
 * Here, we can see that the Linear SVM, KNN, Logistic Regression and Random Forest are performing well enough after cross validation.
-* Linear SVM is having a higher mean accuracy score.
+* **Linear SVM is having a higher mean accuracy score.**
 * From the cross validation scores we can see that there is enough variance in the performance of all models with different data and therefore we can assume that performance of model is subjective to data.
 
 ### Model Evaluation 
@@ -89,7 +89,7 @@ Hyper Parameter Tuning can be done to change the learning rate of the algorithm 
 2. KNN
 3. Random Forest Classifier
 
-* From the hyper parameter tuning, we can see that all the models perform well but Linear SVM is having a slight advantage when it comes to overall accuracy.
+* **From the hyper parameter tuning, we can see that all the models perform well but Linear SVM is having a slight advantage when it comes to overall accuracy.**
 
 ### Boosting
 
